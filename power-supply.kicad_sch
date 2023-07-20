@@ -2,7 +2,14 @@
 
   (uuid 46f5ca8c-8310-4609-b01c-8901f21fc4f7)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "switched bandpass filter")
+    (date "2023-07-20")
+    (rev "v0.2")
+    (comment 1 "Copyright © 2023 WA7GIL")
+  )
 
   (lib_symbols
     (symbol "Regulator_Linear:L78L05_SOT89" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)

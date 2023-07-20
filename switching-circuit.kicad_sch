@@ -5,8 +5,10 @@
   (paper "USLetter")
 
   (title_block
+    (title "switched bandpass filter")
     (date "2023-07-20")
-    (rev "v0.1")
+    (rev "v0.2")
+    (comment 1 "Copyright © 2023 WA7GIL")
   )
 
   (lib_symbols

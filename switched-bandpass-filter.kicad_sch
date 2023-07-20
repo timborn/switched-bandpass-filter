@@ -7,7 +7,8 @@
   (title_block
     (title "switched bandpass filter")
     (date "2023-07-20")
-    (rev "v0.1")
+    (rev "v0.2")
+    (comment 1 "Copyright © 2023 WA7GIL")
   )
 
   (lib_symbols
@@ -1197,6 +1198,23 @@
     (instances
       (project "switched-bandpass-filter"
         (path "/05f50450-de9a-44de-96d4-4a146d783d83" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 195.58 58.42) (size 22.86 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 855f8500-7c30-46fb-a41b-cbce7308e08d)
+    (property "Sheetname" "filter1" (at 195.58 57.7084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "filter1.kicad_sch" (at 195.58 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "switched-bandpass-filter"
+        (path "/05f50450-de9a-44de-96d4-4a146d783d83" (page "4"))
       )
     )
   )
