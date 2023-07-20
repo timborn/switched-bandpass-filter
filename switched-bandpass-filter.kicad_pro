@@ -391,7 +391,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "test1.kicad_pro",
+    "filename": "switched-bandpass-filter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -470,6 +470,10 @@
     [
       "05f50450-de9a-44de-96d4-4a146d783d83",
       ""
+    ],
+    [
+      "d4245743-3101-4aa9-985f-bdd1e5cf8eb9",
+      "switching circuit"
     ]
   ],
   "text_variables": {}
