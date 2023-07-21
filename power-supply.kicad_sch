@@ -102,7 +102,7 @@
     (property "Value" "L78L05_SOT89" (at 113.03 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 114.3 63.5 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" (at 114.3 63.5 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" (at 107.95 63.5 0)
