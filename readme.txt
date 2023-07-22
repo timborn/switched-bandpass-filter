@@ -18,3 +18,10 @@ CHANGE REQUESTS
    SOT89 for 7805 has no solder bridge between pads for SMT part.
    I turned this error into a warning.  Don't know what I can do 
    to actually fix this.
+5. fix this: single branch only using master
+6. get rid of traces from front that route on the back
+7. spread the connections from Fx in/out to U1 further apart
+8. may not need full 15mm width for each of the filter runs
+   squeeze them in and let Ron inspect
+   we basically have a 56mm width minus SMA connectors minus headers
+   there just isn't enough for 4*15mm filter strips
