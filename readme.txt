@@ -30,5 +30,5 @@ X. increase board size and add mounting holes in the corners.
    3.25mm plated through and grounded, for 4-40 mounting h/w.
 X. update board size on PCB viewer
 X. traces to SMA are 50 ohm and need to be 3mm
-12. add 3mm wide strips between filters by removing solder mask 
+X. add 3mm wide strips between filters by removing solder mask 
     so vertical boards could be soldered on
