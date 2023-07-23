@@ -1,0 +1,37 @@
+Sun Jul 23 12:02:13 MST 2023
+----------------------------
+
+Checklist before you send it to the factory.
+
+_X_ Update the page settings and version number on schematic & PCB.
+    Check silkscreen version number!
+_X_ ERC
+_X_ Fill all pours!
+_X_ run via stitcher
+_X_ DRC
+_X_ Generate Gerbers: 
+    File / Plot  
+    Layers: 
+	F.Cu 
+	B.Cu 
+	F.Silkscreen 
+	B.Silkscreen 
+	F.Mask 
+	B.Mask 
+	Edge.Cuts
+_X_ Generate Drill File.  Put output in same folder with Gerbers
+_X_ verify Gerbers using Gerber Viewer in KiCad
+    Suggested order: B.CU, B.Mask, B.Silkscreen, toggle each layer to 
+    look for outliers.  Add Edge.Cuts.
+    Repeat for F.*
+_X_ zip up gerber/ into gerber.zip
+_X_ PCBWAY
+    NB anything but GREEN mask costs more!
+    NB 83x73mm approx.  It's actually a couple mm larger than actual board.
+___ git tag & push tags to origin
+
+
+
+
+
+

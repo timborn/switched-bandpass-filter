@@ -32,3 +32,6 @@ X. update board size on PCB viewer
 X. traces to SMA are 50 ohm and need to be 3mm
 X. add 3mm wide strips between filters by removing solder mask 
     so vertical boards could be soldered on
+13. zeroed out "solder mask expansion" and "solder mask minimum web width"
+    as I got stern warnings to use zero and let mfgr pick something suitable.
+    Need to change the template.
