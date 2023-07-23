@@ -28,10 +28,4 @@ _X_ zip up gerber/ into gerber.zip
 _X_ PCBWAY
     NB anything but GREEN mask costs more!
     NB 83x73mm approx.  It's actually a couple mm larger than actual board.
-___ git tag & push tags to origin
-
-
-
-
-
-
+_X_ git tag & push tags to origin
