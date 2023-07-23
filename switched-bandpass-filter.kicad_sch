@@ -6,8 +6,8 @@
 
   (title_block
     (title "switched bandpass filter")
-    (date "2023-07-22")
-    (rev "v0.4")
+    (date "2023-07-23")
+    (rev "v0.5")
     (comment 1 "Copyright © 2023 WA7GIL")
   )
 
@@ -819,6 +819,21 @@
     (uuid f74eed06-9020-4b14-b1be-b17c292540da)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 102.1305 106.68 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+
+  (netclass_flag "" (length 2.54) (shape round) (at 129.54 144.78 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d7437747-a2e1-4daa-be7d-cdf600b6a10e)
+    (property "Netclass" "50ohm" (at 127 144.1704 90)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
+  (netclass_flag "" (length 2.54) (shape round) (at 151.13 144.78 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e15a8301-cbe1-4081-9911-1e43cf4a4504)
+    (property "Netclass" "50ohm" (at 148.59 144.1704 90)
+      (effects (font (size 1.27 1.27) italic) (justify left))
     )
   )
 
