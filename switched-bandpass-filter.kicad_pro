@@ -456,7 +456,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "F1 common": "50ohm",
+      "F2 common": "50ohm"
+    },
     "netclass_patterns": [
       {
         "netclass": "50ohm",
