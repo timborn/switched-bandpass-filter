@@ -21,10 +21,14 @@ X. make sure to label Fx in/out on back of board!
 X. fix this: single branch only using master
 X. get rid of traces from front that route on the back
 7. spread the connections from Fx in/out to U1 further apart
-8. may not need full 15mm width for each of the filter runs
+X. may not need full 15mm width for each of the filter runs
    squeeze them in and let Ron inspect
    we basically have a 56mm width minus SMA connectors minus headers
    there just isn't enough for 4*15mm filter strips
    Resolved: just jam them in.  Ron thinks they will fit.
-9. increase board size and add mounting holes in the corners.
+X. increase board size and add mounting holes in the corners.
    3.25mm plated through and grounded, for 4-40 mounting h/w.
+X. update board size on PCB viewer
+X. traces to SMA are 50 ohm and need to be 3mm
+12. add 3mm wide strips between filters by removing solder mask 
+    so vertical boards could be soldered on

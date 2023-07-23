@@ -6,8 +6,8 @@
 
   (title_block
     (title "switched bandpass filter")
-    (date "2023-07-22")
-    (rev "v0.4")
+    (date "2023-07-23")
+    (rev "v0.5")
     (comment 1 "Copyright © 2023 WA7GIL")
   )
 
